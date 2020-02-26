@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route,} from 'react-router-dom';
 import Header from './Header';
+import Footer from './Footer';
 import Home from './pages/Home';
 import Feed from './pages/Feed';
 import FAQ from './pages/FAQ';
